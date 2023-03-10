@@ -14,7 +14,7 @@ const CONFIG = {
 	name: 'Friend',
 	imageBackground: true,
 	openInNewTab: false,
-	twelveHourFormat: true,
+	twelveHourFormat: false,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -28,7 +28,7 @@ const CONFIG = {
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
@@ -44,7 +44,7 @@ const CONFIG = {
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
 	hourDarkThemeActive: '18:30',
-	hourDarkThemeInactive: '07:00',
+	hourDarkThemeInactive: '07:40',
 
 	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
 	// ├┴┐│ │ │  │ │ ││││└─┐
@@ -61,7 +61,7 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://aol.com/',
 		},
 		{
 			id: '3',
@@ -157,24 +157,24 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'church',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Home Page',
+					link: 'https://https://churchofjesuschrist.org',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Gospel Library',
+					link: 'https://churchofjesuschrist.org/study',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Newsroom',
+					link: 'https://newsroom.churchofjesuschrist.org/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Donations',
+					link: 'https://donations.churchofjesuschrist.org/donations',
 				},
 			],
 		},
