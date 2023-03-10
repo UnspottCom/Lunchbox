@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://aol.com/',
+			name: 'Notion Notes',
+			icon: 'album',
+			link: 'https://notion.so',
 		},
 		{
 			id: '3',
@@ -84,7 +84,7 @@ const CONFIG = {
 		{
 			id: '6',
 			name: 'Books',
-			icon: 'book',
+			icon: 'library',
 			link: 'http://media.unspott.com',
 		},
 	],
